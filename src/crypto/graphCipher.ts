@@ -22,7 +22,7 @@ export const modInverse = (a: number, m: number = PRIME): number | null => {
 export const inverseMatrix = (M: Matrix, p: number = PRIME): Matrix | null => {
   const n = M.length;
   const A = M.map(row => [...row]);
-  const inv = Array.from({ length: n }, (_, i) => 
+  const inv: number[][] = Array.from({ length: n }, (_, i) => 
     Array.from({ length: n }, (_, j) => (i === j ? 1 : 0))
   );
 

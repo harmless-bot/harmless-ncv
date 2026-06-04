@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
-import { motion } from 'framer-motion';
+
 import { Network, GitMerge, Fingerprint, Lock, Unlock, Hash, Key } from 'lucide-react';
 import { generateM1, generateM2, multiplyMatrices, generateKeyMatrix, inverseMatrix, type Matrix } from './crypto/graphCipher';
 
