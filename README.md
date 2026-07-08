@@ -1,13 +1,41 @@
-# Network Cryptography Visualizer
+# Network Cipher Visualizer (NCV)
 
-An interactive sandbox demonstrating graph-theoretic encryption techniques over Galois Field GF(257).
-Developed by **Divyanshu Rai**.
+Educational visualization web application demonstrating graph-based substitution and permutation cipher algorithms.
 
-## Overview
-This project visualizes transforming text into fully connected weighted graphs (M1), extracting Minimum Spanning Trees (M2) using Prim's algorithm, and applying matrix multiplications with key matrices to produce ciphertext over GF(257).
+## Features
 
-## Developer
-*   **Divyanshu Rai**
+- Interactive cryptographic graph transformation visualizer
+- Step-by-step cipher execution trace (`graphCipher.ts`)
 
 ## Tech Stack
-*   React, Vite, TypeScript, Tailwind CSS, Framer Motion
+
+- TypeScript
+- React
+- Vite
+
+## Project Structure
+
+- `src/crypto/graphCipher.ts` - Core graph encryption algorithms
+- `src/App.tsx` - Interactive visual control panel
+
+## Installation
+
+```bash
+git clone https://github.com/harmless-bot/harmless-ncv.git
+cd harmless-ncv
+npm install
+npm run dev
+```
+
+## Scripts
+
+- `npm run dev` - Run local Vite dev server
+- `npm run build` - Compile production bundle
+
+## Contributing
+
+Ensure all TypeScript cryptographic implementations include unit tests.
+
+## License
+
+MIT License.
